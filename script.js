@@ -12,7 +12,7 @@ var marker = L.marker([42,-88]).addTo(map);
 var marker_Camp = L.marker([41.8555,-88.15]).addTo(map);
 var marker_Bucci = L.marker([42.3,-88.4]).addTo(map);
 
-var circle = L.circle([42,-88], {
+var circle = L.circle([41.975,-87.91], {
     color: 'purple',
     fillColor: '#f03',
     fillOpacity: 0.75,
@@ -30,7 +30,7 @@ fillColor:"yellow"}).addTo(map);
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 marker_Camp.bindPopup("<b>Hello world!</b><br>I am the Camp House.").openPopup();
 marker_Bucci.bindPopup("<b>Hello world!</b><br>I am the Bucci House.").openPopup();
-circle.bindPopup("I am a circle.");
+circle.bindPopup("I am ORD Airport.");
 polygon.bindPopup("I am a polygon.");
 
 /*
